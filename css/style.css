@@ -24,14 +24,14 @@ html,body{
 	margin: 0 auto;
 }
 
-.header{
+.header-principal{
 	width: 100%;
 	padding:0 2%;
 	height: 60px;
 	background-color: #212343;
 }
 
-.header img{
+.header-principal img{
 	margin: 15px;
 }
 
@@ -198,7 +198,7 @@ html,body{
 	width:70px;
 }
 
-.footer{
+.footer-principal{
 	/*clear:both;*/
 	border-top:2px solid #888888;
 	padding:20px 0;
@@ -206,20 +206,20 @@ html,body{
 	color: #888;
 }
 
-.footer p{
+.footer-principal p{
 	margin-top:8px;
 }
 
 
 @media screen and (max-width: 1024px){ /* quando a tela chegar no max de 1024 px, irá fazer essas propriedades ..*/
-	.header{  /* o header ficará no centro */
+	.header-principal{  /* o header ficará no centro */
 		height: auto;
 		width: 100%;
 		padding:15px 0;
 		text-align: center;
 	}
 
-	.header img{  /* uma margin 0 na logo */ 
+	.header-principal img{  /* uma margin 0 na logo */ 
 		margin:0;
 	}
 
